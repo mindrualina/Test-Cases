@@ -32,7 +32,8 @@ User: alina & Pass: 123456
 3. Click "Login" button
 
 **Expected result:**
-User should receive an error message indicating that the login attempt failed due to invalid credentials
+User should receive an error message indicating that the login attempt failed due to invalid credentials. \
+The error message should guide the user on the nature of the issue, such as "Invalid username or password."
 
 
 ---
@@ -77,7 +78,8 @@ User should receive an email with a reset password link. That link should allow 
 3. Press the "Search" button
 
 **Expected result:**
-System should display a list of results matching the entered search query
+System should display a list of results matching the entered search query. \
+Each result should contain relevant information, and the displayed items should be consistent with the search criteria.
 
 ---
 
@@ -90,7 +92,9 @@ System should display a list of results matching the entered search query
 2. Begin typing a search query with a minimum number of characters
 3. Observe the system's response for autocomplete suggestions
 
-**Expected result**: As the user types, the system should dinamically display autocomplete suggestions based on the entered characters.
+**Expected result**: As the user types, the system should dinamically display autocomplete suggestions based on the entered characters. \
+Autocomplete suggestions should appear after a reasonable number of characters have been entered (e.g., three characters) to provide meaningful suggestions. \
+Suggestions should be relevant and related to the existing data within the system.
 
 ---
 
@@ -104,7 +108,7 @@ System should display a list of results matching the entered search query
 3. Press the "Search" button
 
 **Expected result:** 
-The system should respond to the non-existing query without generating an error.
+The system should respond to the non-existing query without generating an error. \
 Instead of an error message, the system should display a message indicating that no results were found.
 
 ---
